@@ -1,0 +1,37 @@
+ git init .
+  415  touch a
+  416  git add .
+  417  git commit -m ''
+  418  git commit -m ' '
+  419  git commit -m ' a'
+  420  git checkout -b cool
+  421  touch b
+  422  git checkout -c dog
+  423  git checkout -b dog
+  424  touch c
+  425  git add .
+  426  git commit -m 'd'
+  427  git checkout cool
+  428  git inin aaa
+  429  git init aaa
+  430  touch a
+  431  git add .
+  432  git commit -m 'a'
+  433  git checkout -b book
+  434  touch b
+  435  git add .
+  436  git commit -m 'b'
+  437  git checkout -b cook
+  438  touch c
+  439  git add .
+  440  git commit -m 'c'
+  441  git checkout master
+  442  git checkout book
+  443  git merge cook
+  444  git checkout master
+  445  git checkout cook
+  446  git checkout book
+  447  history
+---------------------------------------------
+
+
